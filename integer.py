@@ -24,7 +24,7 @@ def main():
     print(f"please choose integer number between{min_range}and{max_range}and you have{attempts}chans to won.. ")
 
     while attempts > 0:
-        guess = get_valid_integer("please inter your guess number")
+        guess = get_valid_integer("please Enter your guess number")
 
         if guess < min_range or guess > max_range:
             print(f"please choose integer number between{min_range}and{max_range}")
